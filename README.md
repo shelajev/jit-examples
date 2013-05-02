@@ -22,7 +22,6 @@ WorkIt took 102 ms. pi = 3.14064
 -XX:CompileThreshold=1000:
 WorkIt took 93 ms. pi = 3.13996
 
-
-
-
+-XX:CompileThreshold=20000
+WorkIt took 102 ms. pi = 3.13612
 
