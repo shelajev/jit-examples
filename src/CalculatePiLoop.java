@@ -4,7 +4,7 @@ public class CalculatePiLoop {
   public static volatile double pi;
 
   public static void main(String[] args) {
-    warmUp();
+    // warmUp();
 
     int n = 100000;
     long time = -System.currentTimeMillis();

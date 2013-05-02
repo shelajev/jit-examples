@@ -10,6 +10,9 @@ With warmup:
 
 (95 - 75) / 95 = 21% boost
 
+Using: -Djava.compiler=NONE 
+    WorkIt took 279 ms. pi = 3.14604
+
 
 
 
