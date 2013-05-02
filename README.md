@@ -10,18 +10,20 @@ With warmup:
 
 (95 - 75) / 95 = 21% boost
 
-Using: -Djava.compiler=NONE 
+The following runs were executed with warmup disabled:
+
+Using: -Djava.compiler=NONE
     WorkIt took 279 ms. pi = 3.14604
 
 -XX:CompileThreshold=100:
-WorkIt took 143 ms. pi = 3.13716
+    WorkIt took 143 ms. pi = 3.13716
 
 -XX:CompileThreshold=500:
-WorkIt took 102 ms. pi = 3.14064
+    WorkIt took 102 ms. pi = 3.14064
 
 -XX:CompileThreshold=1000:
-WorkIt took 93 ms. pi = 3.13996
+    WorkIt took 93 ms. pi = 3.13996
 
 -XX:CompileThreshold=20000
-WorkIt took 102 ms. pi = 3.13612
+    WorkIt took 102 ms. pi = 3.13612
 
