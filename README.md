@@ -13,6 +13,15 @@ With warmup:
 Using: -Djava.compiler=NONE 
     WorkIt took 279 ms. pi = 3.14604
 
+-XX:CompileThreshold=100:
+WorkIt took 143 ms. pi = 3.13716
+
+-XX:CompileThreshold=500:
+WorkIt took 102 ms. pi = 3.14064
+
+-XX:CompileThreshold=1000:
+WorkIt took 93 ms. pi = 3.13996
+
 
 
 
